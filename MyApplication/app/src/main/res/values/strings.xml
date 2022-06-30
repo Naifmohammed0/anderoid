@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ComputerCinter</string>
+
+    <string-array name="index">
+        <item>رخصة جامعة إب IUCDL</item>
+        <item>جرافكس</item>
+        <item>أنظمه محاسبيه + محاسبه أ و ب</item>
+        <item>صيانة الحاسوب</item>
+    </string-array>
+</resources>

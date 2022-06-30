@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sharaf9.tawfeeq.android.com.computercinter.Main2Activity"
+    android:gravity="right"
+    android:background="@drawable/bac1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        android:layout_marginBottom="0dp"
+        android:gravity="left"
+        android:foregroundGravity="center">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/listView3"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.89"
+            android:background="#8ef7e9" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="رقم الطالب"
+        android:inputType="phone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="اسم الطالب "
+        android:layout_alignBottom="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/button3"
+        android:layout_toStartOf="@+id/button3" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:hint="رقم التلفون "
+        android:inputType="phone"
+        android:layout_below="@+id/editText"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_marginTop="31dp"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:hint="المبلغ المدفوع "
+        android:inputType="phone"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="إظافه"
+        android:id="@+id/button2"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/button3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:background="#99ff01" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="حذف"
+        android:id="@+id/button3"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:background="#fc041d" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="تعديل"
+        android:id="@+id/button4"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4"
+        android:background="#99ff01" />
+</RelativeLayout>
